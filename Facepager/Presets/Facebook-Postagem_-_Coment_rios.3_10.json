@@ -1,0 +1,33 @@
+{
+  "category": ". M\u00eddias sociais",
+  "columns": [
+    "message",
+    "from.name",
+    "created_time",
+    "shares.count",
+    "like_count",
+    "comment_count",
+    "type"
+  ],
+  "description": "Obt\u00e9m todos os coment\u00e1rios de uma postagem, incluindo o texto, data de cria\u00e7\u00e3o, quem criou, quantidade de respostas e de curtidas",
+  "headers": false,
+  "module": "Facebook",
+  "name": "Facebook - Coment\u00e1rios",
+  "options": {
+    "basepath": "https://graph.facebook.com/v2.12/",
+    "key_paging": null,
+    "nodedata": "data",
+    "objectid": "id",
+    "pages": 50,
+    "param_paging": null,
+    "params": {
+      "<post>": "<Object ID>",
+      "after": "<paging.cursors.after>",
+      "fields": "message, created_time, from, like_count, comment_count, type",
+      "limit": "100"
+    },
+    "resource": "<post>/comments",
+    "scope": ""
+  },
+  "speed": 50
+}

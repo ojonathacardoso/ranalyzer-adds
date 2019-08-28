@@ -1,0 +1,40 @@
+{
+  "category": ". M\u00eddias tradicionais",
+  "columns": [
+    "description",
+    "title",
+    "url",
+    "author",
+    "publishedAt",
+    "content",
+    "source.id",
+    "source.name"
+  ],
+  "description": "",
+  "headers": false,
+  "module": "Generic",
+  "name": "Not\u00edcias - Mais recentes",
+  "options": {
+    "auth": "disable",
+    "auth_type": "OAuth2",
+    "auth_uri": "",
+    "basepath": "https://newsapi.org/v2/",
+    "headers": {},
+    "key_paging": null,
+    "nodedata": null,
+    "objectid": null,
+    "pages": 10,
+    "param_paging": null,
+    "params": {
+      "apiKey": "f6fa857603874b49a85b83eb32de58b2",
+      "country": "br",
+      "pageSize": "100"
+    },
+    "redirect_uri": "",
+    "resource": "top-headlines",
+    "scope": "",
+    "token_uri": "",
+    "verb": "GET"
+  },
+  "speed": 50
+}

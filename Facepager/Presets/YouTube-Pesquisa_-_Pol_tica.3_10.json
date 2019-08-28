@@ -1,0 +1,40 @@
+{
+  "category": ". M\u00eddias sociais",
+  "columns": [
+    "snippet.title",
+    "snippet.channelId",
+    "snippet.publishedAt",
+    "snippet.channelTitle",
+    "snippet.description",
+    "id.kind",
+    "id.videoId"
+  ],
+  "description": "Pesquisa em v\u00eddeos usando t\u00f3picos. Por padr\u00e3o, o \"Pol\u00edtica\".\nAlguns outros: \nNeg\u00f3cios: /m/09s1f\nConhecimento: /m/01k8wb\nSociedade: /m/098wr\nSa\u00fade: /m/0kt51\n",
+  "headers": false,
+  "module": "YouTube",
+  "name": "YouTube - Pesquisa por t\u00f3pico",
+  "options": {
+    "auth": "param",
+    "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+    "basepath": "https://www.googleapis.com/youtube/v3/",
+    "key_paging": "nextPageToken",
+    "nodedata": "items",
+    "objectid": "id.videoId",
+    "pages": 50,
+    "param_paging": "pageToken",
+    "params": {
+      "maxResults": "50",
+      "part": "snippet",
+      "q": "<Object ID>",
+      "regionCode": "BR",
+      "safeSearch": "moderate",
+      "topicId": "/m/05qt0",
+      "type": "video"
+    },
+    "redirect_uri": "https://localhost",
+    "resource": "search",
+    "scope": "",
+    "token_uri": "https://accounts.google.com/o/oauth2/token"
+  },
+  "speed": 200
+}

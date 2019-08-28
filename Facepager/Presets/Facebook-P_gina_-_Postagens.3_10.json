@@ -1,0 +1,33 @@
+{
+  "category": ". M\u00eddias sociais",
+  "columns": [
+    "message",
+    "from.name",
+    "created_time",
+    "shares.count",
+    "like_count",
+    "comment_count",
+    "type"
+  ],
+  "description": "Obt\u00e9m todas as postagens de uma p\u00e1gina, incluindo o seu texto e data de cria\u00e7\u00e3o",
+  "headers": false,
+  "module": "Facebook",
+  "name": "Facebook - Postagens de uma p\u00e1gina",
+  "options": {
+    "basepath": "https://graph.facebook.com/v3.2/",
+    "key_paging": null,
+    "nodedata": "data",
+    "objectid": "id",
+    "pages": 50,
+    "param_paging": null,
+    "params": {
+      "<page>": "<Object ID>",
+      "after": "<paging.cursors.after>",
+      "fields": "message, created_time, from, shares, type",
+      "limit": "100"
+    },
+    "resource": "<page>/feed",
+    "scope": ""
+  },
+  "speed": 50
+}

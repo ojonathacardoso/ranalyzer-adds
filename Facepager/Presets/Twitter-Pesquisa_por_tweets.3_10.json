@@ -1,0 +1,39 @@
+{
+  "category": ". M\u00eddias sociais",
+  "columns": [
+    "user.name",
+    "user.screen_name",
+    "text",
+    "created_at",
+    "entities.hashtags",
+    "is_quote_status",
+    "favorite_count",
+    "retweeted",
+    "in_reply_to_screen_name",
+    "retweet_count",
+    "user.location"
+  ],
+  "description": "",
+  "headers": false,
+  "module": "Twitter",
+  "name": "Twitter - Termo ou hashtag",
+  "options": {
+    "auth": "disable",
+    "auth_type": "Twitter OAuth1",
+    "auth_uri": "",
+    "basepath": "https://api.twitter.com/1.1/",
+    "key_paging": null,
+    "nodedata": null,
+    "objectid": "id",
+    "pages": 10,
+    "param_paging": null,
+    "params": {
+      "count": "100",
+      "q": "<Object ID>"
+    },
+    "redirect_uri": "",
+    "resource": "search/tweets",
+    "token_uri": ""
+  },
+  "speed": 50
+}

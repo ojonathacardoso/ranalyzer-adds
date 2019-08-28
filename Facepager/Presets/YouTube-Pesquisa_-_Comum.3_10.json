@@ -1,0 +1,39 @@
+{
+  "category": ". M\u00eddias sociais",
+  "columns": [
+    "snippet.title",
+    "snippet.channelId",
+    "snippet.publishedAt",
+    "snippet.channelTitle",
+    "snippet.description",
+    "id.kind",
+    "id.videoId"
+  ],
+  "description": "Pesquisa em v\u00eddeos",
+  "headers": false,
+  "module": "YouTube",
+  "name": "YouTube - Pesquisa simples",
+  "options": {
+    "auth": "param",
+    "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+    "basepath": "https://www.googleapis.com/youtube/v3/",
+    "key_paging": "nextPageToken",
+    "nodedata": "items",
+    "objectid": "id.videoId",
+    "pages": 20,
+    "param_paging": "pageToken",
+    "params": {
+      "maxResults": "50",
+      "part": "snippet",
+      "q": "<Object ID>",
+      "regionCode": "BR",
+      "safeSearch": "moderate",
+      "type": "video"
+    },
+    "redirect_uri": "https://localhost",
+    "resource": "search",
+    "scope": "",
+    "token_uri": "https://accounts.google.com/o/oauth2/token"
+  },
+  "speed": 100
+}

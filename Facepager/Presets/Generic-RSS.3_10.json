@@ -1,0 +1,36 @@
+{
+  "category": ". M\u00eddias tradicionais",
+  "columns": [
+    "title",
+    "description",
+    "pubDate",
+    "content"
+  ],
+  "description": "",
+  "headers": false,
+  "module": "Generic",
+  "name": "Feeds RSS",
+  "options": {
+    "auth": "disable",
+    "auth_type": "OAuth2",
+    "auth_uri": "",
+    "basepath": "https://api.rss2json.com/v1/api.json",
+    "headers": {},
+    "key_paging": null,
+    "nodedata": null,
+    "objectid": null,
+    "pages": 10,
+    "param_paging": null,
+    "params": {
+      "api_key": "hlz1e23ow2nhr6jmcgtda7ox5yvhiadoyouynmky",
+      "count": "20",
+      "rss_url": ""
+    },
+    "redirect_uri": "",
+    "resource": "",
+    "scope": "",
+    "token_uri": "",
+    "verb": "GET"
+  },
+  "speed": 50
+}

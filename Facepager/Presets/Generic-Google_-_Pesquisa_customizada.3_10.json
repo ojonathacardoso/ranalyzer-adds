@@ -1,0 +1,37 @@
+{
+  "category": ". M\u00eddias tradicionais",
+  "columns": [
+    "displayLink",
+    "title",
+    "snippet",
+    "pagemap.metatags.*.og:description"
+  ],
+  "description": "",
+  "headers": false,
+  "module": "Generic",
+  "name": "Google - Pesquisa ",
+  "options": {
+    "auth": "disable",
+    "auth_type": "OAuth2",
+    "auth_uri": "",
+    "basepath": "https://www.googleapis.com/customsearch/v1",
+    "headers": {},
+    "key_paging": "queries.nextPage.0.startIndex",
+    "nodedata": "items",
+    "objectid": "title",
+    "pages": 10,
+    "param_paging": "start",
+    "params": {
+      "cx": "011583553437995717708:fpv4ow-gbrm",
+      "key": "AIzaSyDUG5RnwJWLWx03YdY0RJTRP3zvvBkaJVw",
+      "q": "<Object ID>",
+      "sort": "date"
+    },
+    "redirect_uri": "",
+    "resource": "",
+    "scope": "",
+    "token_uri": "",
+    "verb": "GET"
+  },
+  "speed": 50
+}
