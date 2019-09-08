@@ -11,26 +11,27 @@
   "module": "Generic",
   "name": "Feeds RSS",
   "options": {
-    "auth": "disable",
-    "auth_type": "OAuth2",
-    "auth_uri": "",
     "basepath": "https://api.rss2json.com/v1/api.json",
-    "headers": {},
-    "key_paging": null,
-    "nodedata": null,
-    "objectid": null,
-    "pages": 10,
-    "param_paging": null,
+    "resource": "",
     "params": {
-      "api_key": "hlz1e23ow2nhr6jmcgtda7ox5yvhiadoyouynmky",
-      "count": "20",
+      "api_key": "ypawv2h3pdbbawsfhryldga02uabp8qrpa9u8mwl",
+      "count": "100",
       "rss_url": ""
     },
-    "redirect_uri": "",
-    "resource": "",
+    "headers": {},
+    "verb": "GET",
+    "format": "json",
+    "pages": 50,
+    "key_paging": null,
+    "param_paging": null,
+    "nodedata": null,
+    "objectid": null,
     "scope": "",
+    "auth_type": "OAuth2",
+    "auth_uri": "",
+    "redirect_uri": "",
     "token_uri": "",
-    "verb": "GET"
+    "auth": "disable"
   },
   "speed": 50
 }

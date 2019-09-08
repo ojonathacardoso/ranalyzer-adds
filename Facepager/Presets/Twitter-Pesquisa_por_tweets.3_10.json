@@ -18,22 +18,22 @@
   "module": "Twitter",
   "name": "Twitter - Termo ou hashtag",
   "options": {
-    "auth": "disable",
-    "auth_type": "Twitter OAuth1",
-    "auth_uri": "",
     "basepath": "https://api.twitter.com/1.1/",
-    "key_paging": null,
-    "nodedata": null,
-    "objectid": "id",
-    "pages": 10,
-    "param_paging": null,
+    "resource": "search/tweets",
     "params": {
       "count": "100",
       "q": "<Object ID>"
     },
+    "pages": 50,
+    "key_paging": null,
+    "param_paging": null,
+    "objectid": "id",
+    "nodedata": null,
+    "auth_type": "Twitter OAuth1",
+    "auth_uri": "",
     "redirect_uri": "",
-    "resource": "search/tweets",
-    "token_uri": ""
+    "token_uri": "",
+    "auth": "disable"
   },
   "speed": 50
 }
