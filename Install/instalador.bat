@@ -30,6 +30,10 @@ download\RTools.exe /SILENT
 
 unzip.exe download\OpenRefine.zip -d OpenRefine
 
+mkdir %USERPROFILE%\OpenRefine
+
+xcopy download\OpenRefine %USERPROFILE%\OpenRefine /E
+
 REM del download\OpenRefine.zip
 
 unzip.exe download\FacepagerPresets.zip -d FacepagerPresets
