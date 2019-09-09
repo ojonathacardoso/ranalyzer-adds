@@ -34,6 +34,8 @@ mkdir %USERPROFILE%\OpenRefine
 
 xcopy download\OpenRefine %USERPROFILE%\OpenRefine /E
 
+call shortcut.bat -linkfile "%APPDATA%\Microsoft\Windows\Start Menu\OpenRefine.lnk" -target  "%USERPROFILE%\OpenRefine\openrefine-3.2\"
+
 REM del download\OpenRefine.zip
 
 unzip.exe download\FacepagerPresets.zip -d FacepagerPresets
