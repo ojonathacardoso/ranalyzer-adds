@@ -6,7 +6,7 @@ wget.exe -O download\Facepager.exe https://github.com/strohne/Facepager/releases
 
 wget.exe -O download\OpenRefine.zip https://github.com/OpenRefine/OpenRefine/releases/download/3.2/openrefine-win-3.2.zip
 
-wget.exe -O download\SOBEK.jar http://sobek.ufrgs.br
+wget.exe -O download\SOBEK.jar http://sobek.ufrgs.br/SobekTextMiner.jar
 
 wget.exe -O download\R.exe  https://cran.r-project.org/bin/windows/base/R-3.6.1-win.exe
 
@@ -53,3 +53,7 @@ REM del download\RAnalyzer.zip
 mkdir %USERPROFILE%\R\ranalyzer
 
 copy download\RAnalyzer\ranalyzer-master\ %USERPROFILE%\R\ranalyzer
+
+copy download\SOBEK.jar %USERPROFILE%
+
+call shortcut.bat -linkfile "%APPDATA%\Microsoft\Windows\Start Menu\SOBEK.lnk" -target  "%USERPROFILE%\SOBEK.jar"
