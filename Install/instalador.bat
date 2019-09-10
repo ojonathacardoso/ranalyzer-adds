@@ -50,8 +50,10 @@ REM del download\RAnalyzer.zip
 
 mkdir %USERPROFILE%\R\ranalyzer
 
-copy download\RAnalyzer\ranalyzer-master\ %USERPROFILE%\R\ranalyzer
-
 copy download\SOBEK.jar %USERPROFILE%
 
 call download\shortcut.bat -linkfile "%APPDATA%\Microsoft\Windows\Start Menu\SOBEK.lnk" -target  "%USERPROFILE%\SOBEK.jar"
+
+copy download\RAnalyzer\ranalyzer-master\ %USERPROFILE%\R\ranalyzer
+
+copy download\RAnalyzer\ranalyzer-master\install.R %USERPROFILE%
