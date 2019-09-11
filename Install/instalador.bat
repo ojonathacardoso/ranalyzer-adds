@@ -30,9 +30,9 @@ download\RTools.exe /SILENT
 
 download\unzip.exe download\OpenRefine.zip -d download\OpenRefine
 
-mkdir %USERPROFILE%\OpenRefine
+mkdir "%USERPROFILE%\OpenRefine"
 
-xcopy download\OpenRefine %USERPROFILE%\OpenRefine /E
+xcopy download\OpenRefine "%USERPROFILE%\OpenRefine" /E
 
 call download\shortcut.bat -linkfile "%APPDATA%\Microsoft\Windows\Start Menu\OpenRefine.lnk" -target  "%USERPROFILE%\OpenRefine\openrefine-3.2\"
 
@@ -40,7 +40,7 @@ REM del download\OpenRefine.zip
 
 download\unzip.exe download\FacepagerPresets.zip -d download\FacepagerPresets
 
-copy download\FacepagerPresets\ranalyzer-adds-master\Facepager\Presets %USERPROFILE%\Facepager\Presets
+copy download\FacepagerPresets\ranalyzer-adds-master\Facepager\Presets "%USERPROFILE%\Facepager\Presets"
 
 REM del download\FacepagerPresets.zip 
 
@@ -48,9 +48,9 @@ download\unzip.exe download\RAnalyzer.zip -d download\RAnalyzer
 
 REM del download\RAnalyzer.zip 
 
-mkdir %USERPROFILE%\R\ranalyzer
+mkdir "%USERPROFILE%\R\ranalyzer"
 
-copy download\SOBEK.jar %USERPROFILE%
+copy download\SOBEK.jar "%USERPROFILE%"
 
 call download\shortcut.bat -linkfile "%APPDATA%\Microsoft\Windows\Start Menu\SOBEK.lnk" -target  "%USERPROFILE%\SOBEK.jar"
 
