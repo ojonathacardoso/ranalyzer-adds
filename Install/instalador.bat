@@ -40,7 +40,9 @@ REM del download\OpenRefine.zip
 
 download\unzip.exe download\FacepagerPresets.zip -d download\FacepagerPresets
 
-copy download\FacepagerPresets\ranalyzer-adds-master\Facepager\Presets "%USERPROFILE%\Facepager\Presets"
+mkdir "%USERPROFILE%\Facepager\Presets\"
+
+copy download\FacepagerPresets\ranalyzer-adds-master\Facepager\Presets\ "%USERPROFILE%\Facepager\Presets\"
 
 REM del download\FacepagerPresets.zip 
 
