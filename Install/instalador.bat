@@ -10,7 +10,7 @@ download\wget.exe -O download\SOBEK.jar http://sobek.ufrgs.br/SobekTextMiner.jar
 
 download\wget.exe -O download\R.exe  https://cran.r-project.org/bin/windows/base/R-3.6.1-win.exe
 
-download\wget.exe -O download\RStudio.exe https://download1.rstudio.org/desktop/windows/RStudio-1.2.1335.exe
+REM download\wget.exe -O download\RStudio.exe https://download1.rstudio.org/desktop/windows/RStudio-1.2.1335.exe
 
 download\wget.exe -O download\RTools.exe  https://cran.r-project.org/bin/windows/Rtools/Rtools35.exe
 
@@ -24,7 +24,7 @@ download\Facepager.exe /S
 
 download\R.exe /SILENT
 
-download\RStudio.exe /S
+REM download\RStudio.exe /S
 
 download\RTools.exe /SILENT
 
@@ -57,3 +57,5 @@ call download\shortcut.bat -linkfile "%APPDATA%\Microsoft\Windows\Start Menu\SOB
 copy download\RAnalyzer\ranalyzer-master\ %USERPROFILE%\R\ranalyzer
 
 copy download\RAnalyzer\ranalyzer-master\install.R %USERPROFILE%
+
+call download\shortcut.bat -linkfile "%APPDATA%\Microsoft\Windows\Start Menu\RAnalyzer.lnk" -target  "%USERPROFILE%\R\ranalyzer"
