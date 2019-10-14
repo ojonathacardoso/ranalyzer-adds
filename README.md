@@ -23,7 +23,7 @@ Você pode ler a respeito da instalação e do uso lendo o Manual, disponível <
 
 O processo de instalação é bem simples. Em primeiro lugar, você deve baixar um arquivo ZIP, disponível <a href="https://github.com/ojonathacardoso/ranalyzer-adds/archive/master.zip">aqui</a>. Após isto, descompacte-o em qualquer pasta do computador.
 
-Em seguida, basta abrir a pasta "Install" e dar dois cliques no arquivo <b>instalador.bat</b>. Vai aparecer uma janela preta do Prompt de Comando e 
+Em seguida, basta abrir a pasta "Install" e dar dois cliques no arquivo <b>install.bat</b>. Vai aparecer uma janela preta do Prompt de Comando e 
 os arquivos da linguagem R e do <i>software</i> começarão a ser baixados, instalados e/ou copiados.
 
 <h2> Citação bibliográfica </h2>
